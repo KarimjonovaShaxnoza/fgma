@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="country.css">
+</head>
+<body>
+    <div class="container">
+         <div class="row">
+     <div class="nav-left">
+            <h1>Where in the world?</h1>
+          </div>
+
+                    <div class="nav-right">
+           <button class="one" onclick="lightMode()" style="background: rgb(196, 181, 165);">LightMode</button><button class="two" onclick="darkMode()" style="background: rgb(250, 144, 33);">DarkMode</button>
+          </div>
+   </div>
+    </div>
+</body>
+
+  <h1 id="country-name"></h1>
+    <p class="info" id="country-population"></p>
+    <p class="info" id="country-region"></p>
+    <p class="info" id="country-capital"></p>
+    <img id="country-flag" alt="Country Flag" style="max-width: 300px; margin-top: 20px;">
+
+<script src="country.js"></script>
+</html>
